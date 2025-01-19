@@ -4,7 +4,7 @@
 
 ### Installation
 
-Download copyyear-min.js and add it to your project.
+Download [copyyear-min.js](https://github.com/mirojones/copyright-year/blob/main/copyyear-min.js) and add it to your project.
 
 In your HTML file, add the following `script` tag before your other `script` tags:
 
