@@ -11,7 +11,7 @@ In your HTML file, add the following `script` tag before your other `script` tag
 
 ### Use
 #### `set`
-Sets the `textContent` of an element with specified `id` to the copyright year.
+Sets the `textContent` of an element to the copyright year.
 
 ```javascript
 copyrightYear.set(startYear, element);
