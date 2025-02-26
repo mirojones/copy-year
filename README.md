@@ -1,4 +1,4 @@
-# Copyright year
+# CopyYear
 ## Instructions
 ### Installation
 Download [copyyear-min.js](https://github.com/mirojones/copyright-year/blob/main/copyyear-min.js) and add it to your project.
@@ -27,4 +27,4 @@ Returns the copyright year as a string.
 copyYear.return(startYear);
 ```
 
-- `startYear`: (number) The year you made the content you are copyrighting. For example: 2023
+- `startYear`: (number) The year you made the content you are copyrighting. For example: 2016
