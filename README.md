@@ -18,7 +18,7 @@ copyrightYear.set(startYear, element);
 ```
 
 - `startYear`: (number) The year you made the content you are copyrighting. For example: 2023
-- `elementId`: (HTMLElement) The HTML element where you want the copyright year to appear. Retrieve with methods such as [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) or [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). For example: document.querySelector(".my-element")
+- `element`: (HTMLElement) The HTML element where you want the copyright year to appear. Retrieve with methods such as [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) or [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). For example: document.querySelector(".my-element")
 
 #### `return`
 Returns the copyright year as a string.
