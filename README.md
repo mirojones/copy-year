@@ -14,7 +14,7 @@ In your HTML file, add the following `script` tag before your other `script` tag
 Sets the `textContent` of an element to the copyright year.
 
 ```javascript
-copyrightYear.set(startYear, element);
+copyYear.set(startYear, element);
 ```
 
 - `startYear`: (number) The year you made the content you are copyrighting. For example: 2023
@@ -24,7 +24,7 @@ copyrightYear.set(startYear, element);
 Returns the copyright year as a string.
 
 ```javascript
-copyrightYear.return(startYear);
+copyYear.return(startYear);
 ```
 
 - `startYear`: (number) The year you made the content you are copyrighting. For example: 2023
