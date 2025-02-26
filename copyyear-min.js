@@ -1,1 +1,1 @@
-const copyrightYear={set:function(e,t){var n=new Date().getFullYear();document.getElementById(t).textContent=e==n?n:`${e}\u2013${n}`},return:function(e){var t=new Date().getFullYear();return e==t?t:`${e}\u2013${t}`}};
+const copyYear={set(e,t){var r=new Date().getFullYear();t.textContent=e==r?r:`${e}\u2013${r}`},return(e){var t=new Date().getFullYear();return e==t?t:`${e}\u2013${t}`}};
