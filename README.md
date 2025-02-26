@@ -5,7 +5,7 @@ Download [copyyear-min.js](https://github.com/mirojones/copyright-year/blob/main
 
 In your HTML file, add the following `script` tag before your other `script` tags:
 
-```javascript
+```html
 <script src="copyyear-min.js"></script>
 ```
 
