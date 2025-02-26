@@ -14,11 +14,11 @@ In your HTML file, add the following `script` tag before your other `script` tag
 Sets the `textContent` of an element with specified `id` to the copyright year.
 
 ```javascript
-copyrightYear.set(startYear, elementId);
+copyrightYear.set(startYear, element);
 ```
 
 - `startYear`: (number) The year you made the content you are copyrighting. For example: 2023
-- `elementId`: (string) The unique `id` of the HTML element where you want the copyright year to appear. For example: "my-element"
+- `elementId`: (HTMLElement) The HTML element where you want the copyright year to appear. Retrieve with methods such as [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) or [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). For example: document.querySelector(".my-element")
 
 #### `return`
 Returns the copyright year as a string.
